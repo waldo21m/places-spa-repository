@@ -5,7 +5,7 @@ import {redA400, lightBlue400, amberA400} from "material-ui/styles/colors";
 export default class Benefits extends React.Component {
   render() {
     return (
-      <ul>
+      <div>
         <Card className="Header-Benefit">
           <CardText>
             <div className="row">
@@ -47,7 +47,7 @@ export default class Benefits extends React.Component {
             </div>
           </CardText>
         </Card>
-      </ul>
+      </div>
     );
   }
 }

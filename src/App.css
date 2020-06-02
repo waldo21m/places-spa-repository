@@ -5,12 +5,21 @@
 }
 
 .Header-background {
-  padding: 50px;
-  padding-top: 100px;
+  margin-top: 2em;
+  margin-bottom: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.Header-title, .Header-illustration {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Header-illustration {
+  height: 300px;
 }
 
 .Header-Benefit {
@@ -50,18 +59,6 @@
   flex-basis: 60%;
   max-width: 60%;
   padding: 10px !important;
-}
-
-.Header-illustration {
-  position: absolute;
-  z-index: -1;
-  top: 40px;
-  height: 300px;
-}
-
-.Header-main {
-  margin-bottom: 2em;
-  margin-left: -200px;
 }
 
 .textfield {

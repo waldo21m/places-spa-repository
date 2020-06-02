@@ -41,17 +41,17 @@ export default class Home extends React.Component {
       <section>
         <div className="Header-background">
           <Container>
-            <div className="Header-main">
-              <Title/>
-              <Link to="/signup">
-                <RaisedButton label="Crear cuenta gratuita" secondary={true}/>
-              </Link>
+            <div style={{"marginBottom": "2em"}}>
+              <div className="Header-title">
+                <Title/>
+                <Link to="/signup">
+                  <RaisedButton label="Crear cuenta gratuita" secondary={true}/>
+                </Link>
+              </div>
               <img className="Header-illustration"
                    src={process.env.PUBLIC_URL + "/images/top-background.svg"} alt="Map location"/>
             </div>
-            <div>
-              <Benefits/>
-            </div>
+            <Benefits/>
           </Container>
         </div>
 
