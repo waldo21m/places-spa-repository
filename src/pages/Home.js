@@ -9,6 +9,7 @@ import Benefits from "../components/Benefits";
 import PlaceCard from "../components/places/PlaceCard";
 import data from "../requests/places";
 import {Link} from "react-router-dom";
+import FlatButton from 'material-ui/FlatButton';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -43,9 +44,15 @@ export default class Home extends React.Component {
             <div style={{"marginBottom": "2em"}}>
               <div className="Header-title">
                 <Title/>
-                <Link to="/signup">
+                <Link to="/places-spa/signup">
                   <RaisedButton label="Crear cuenta gratuita" secondary={true}/>
                 </Link>
+                <FlatButton
+                  href="https://github.com/waldo21m/places-spa-repository"
+                  target="_blank"
+                  label="GitHub Link"
+                  secondary={true}
+                />
               </div>
               <img className="Header-illustration"
                    src={process.env.PUBLIC_URL + "/images/top-background.svg"} alt="Map location"/>

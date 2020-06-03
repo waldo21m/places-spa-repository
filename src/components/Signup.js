@@ -5,7 +5,7 @@ import RaisedButton from "material-ui/RaisedButton";
 const SignUp = ({createAccount}) => {
   return (
     <div>
-      <Link to="/login" style={{"marginRight": "1em"}}>Ya tengo cuenta</Link>
+      <Link to="/places-spa/login" style={{"marginRight": "1em"}}>Ya tengo cuenta</Link>
       <RaisedButton onClick={createAccount} label="Crear cuenta" secondary={true}/>
     </div>
   );

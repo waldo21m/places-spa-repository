@@ -16,9 +16,9 @@ export default class Router extends React.Component {
       <ReactRouter>
         <App>
           <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/login" component={Login}/>
-            <Route path="/signup" component={Login}/>
+            <Route exact path="/places-spa" component={Home}/>
+            <Route path="/places-spa/login" component={Login}/>
+            <Route path="/places-spa/signup" component={Login}/>
           </Switch>
         </App>
       </ReactRouter>

@@ -46,17 +46,17 @@ export default class Login extends React.Component {
                   ref="passwordField"
                 />
                 <div className="Login-actions">
-                  <Route path="/login" exact
+                  <Route path="/places-spa/login" exact
                          render={(props) => <LoginComponent {...props} requestAuth={this.requestAuth}/>}/>
-                  <Route path="/signup" exact
+                  <Route path="/places-spa/signup" exact
                          render={(props) => <SignUpComponent {...props} createAccount={this.createAccount}/>}/>
                 </div>
               </div>
             </Container>
           </div>
           <div className="col-xs-12 col-sm-6">
-            <Route path="/login" exact render={LoginImage}/>
-            <Route path="/signup" exact render={SignUpImage}/>
+            <Route path="/places-spa/login" exact render={LoginImage}/>
+            <Route path="/places-spa/signup" exact render={SignUpImage}/>
           </div>
         </div>
       </div>

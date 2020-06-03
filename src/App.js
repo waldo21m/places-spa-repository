@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   goHome() {
-    this.props.history.push("/");
+    this.props.history.push("/places-spa");
   }
 
   render() {
@@ -34,7 +34,7 @@ class App extends Component {
               unmountOnExit={true}
               timeout={{enter: 500, exit: 500}}
               classNames="left-out"
-              key={this.props.location.pathname.split('/')[1]}
+              key={this.props.location.pathname.split('/places-spa')[1]}
               in={this.props.in}
             >
               {this.props.children}
