@@ -20,6 +20,7 @@ export default class PlaceCard extends React.Component {
             <CardTitle title={this.props.place.title}/>
             <CardText>{this.props.place.description}</CardText>
             <CardActions style={{"textAlign": "right"}}>
+              <FlatButton secondary={true} onClick={() => console.log("En desarrollo")} label="Ver más"/>
               <FlatButton secondary={true} onClick={() => this.props.onRemove(this.props.place)} label="Ocultar"/>
             </CardActions>
           </Card>

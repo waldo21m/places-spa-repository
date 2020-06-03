@@ -1,4 +1,3 @@
-// Librerías externas
 import React, {Component} from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import {TransitionGroup} from "react-transition-group";
@@ -7,7 +6,6 @@ import {withRouter} from 'react-router-dom';
 
 import MyAppBar from "./components/navigation/MyAppBar";
 
-// Hojas de estilo
 import "./App.css";
 import data from "./requests/places";
 
@@ -48,9 +46,4 @@ class App extends Component {
   }
 }
 
-// Esto de acá
-// App = withRouter(App);
-// export default App;
-
-// Es equivalente a esto
 export default withRouter(App);

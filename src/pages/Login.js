@@ -9,8 +9,6 @@ import TextField from 'material-ui/TextField';
 
 import {Route} from "react-router-dom";
 
-import {login, signUp} from "../requests/auth";
-
 export default class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -20,21 +18,11 @@ export default class Login extends React.Component {
   }
 
   requestAuth() {
-    const credentials = {
-      email: this.refs.emailField.getValue(),
-      password: this.refs.passwordField.getValue()
-    };
-
-    login(credentials).then(console.log).catch(console.log);
+    console.log("En desarrollo");
   }
 
   createAccount() {
-    const credentials = {
-      email: this.refs.emailField.getValue(),
-      password: this.refs.passwordField.getValue()
-    };
-
-    signUp(credentials).then(console.log).catch(console.log);
+    console.log("En desarrollo");
   }
 
   render() {

@@ -3,7 +3,6 @@ import RaisedButton from "material-ui/RaisedButton";
 import {indigo400} from "material-ui/styles/colors";
 import {TransitionGroup} from "react-transition-group";
 
-// Componentes
 import Title from "../components/Title";
 import Container from "../components/Container";
 import Benefits from "../components/Benefits";
@@ -16,10 +15,8 @@ export default class Home extends React.Component {
     super(props);
 
     this.state = {
-      places: []
+      places: data.places
     };
-
-    setTimeout(() => this.setState({places: data.places}), 2000);
 
     this.hidePlace = this.hidePlace.bind(this);
   }
