@@ -16,8 +16,10 @@ export default class Home extends React.Component {
     super(props);
 
     this.state = {
-      places: data.places
+      places: []
     };
+
+    setTimeout(() => this.setState({places: data.places}), 2000);
 
     this.hidePlace = this.hidePlace.bind(this);
   }
