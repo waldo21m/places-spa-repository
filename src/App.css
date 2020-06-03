@@ -22,13 +22,20 @@
   height: 300px;
 }
 
+.Benefit {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -1rem;
+  flex-flow: row wrap;
+}
+
 .Header-Benefit {
-  width: 32%;
-  display: inline-block;
-  margin-right: 1%;
   text-align: left;
   box-sizing: border-box;
   overflow: hidden;
+  flex: 1 0;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Header-Benefit div:not(.Header-Benefit-content) {
@@ -51,6 +58,7 @@
 
 .Header-Benefit-image img {
   height: 60%;
+  width: 60%;
   max-width: 100%;
   margin-left: 8px;
 }
