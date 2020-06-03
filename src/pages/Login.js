@@ -41,7 +41,7 @@ export default class Login extends React.Component {
     return (
       <div style={{"overflowX": "hidden"}}>
         <div className="row middle-xs">
-          <div className="col-xs-12 col-sm-6">
+          <div className="col-xs-12 col-sm-6 Col-margin">
             <Container>
               <div style={{"textAlign": "left"}}>
                 <Title/>

@@ -62,7 +62,12 @@
   margin-bottom: 1em;
 }
 
-.Place-card-margin:not(:last-child) {
+.Header-paragraph {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Col-margin:not(:last-child) {
   margin-bottom: 1em;
 }
 

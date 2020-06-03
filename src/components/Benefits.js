@@ -15,7 +15,7 @@ export default class Benefits extends React.Component {
             </CardMedia>
             <CardText>
               <h3>Calificaciones con emociones</h3>
-              <p>Califica tus lugares con experiencias, no con números</p>
+              <p className="Header-paragraph">Califica tus lugares con experiencias, no con números</p>
             </CardText>
           </Card>
         </div>
@@ -28,7 +28,7 @@ export default class Benefits extends React.Component {
             </CardMedia>
             <CardText>
               <h3>¿Sin internet? Sin problemas</h3>
-              <p>Places funciona sin internet o en conexiones lentas</p>
+              <p className="Header-paragraph">Places funciona sin internet o en conexiones lentas</p>
             </CardText>
           </Card>
         </div>
@@ -41,7 +41,7 @@ export default class Benefits extends React.Component {
             </CardMedia>
             <CardText>
               <h3>Tus lugares favoritos</h3>
-              <p>Define tu lista de sitios favoritos</p>
+              <p className="Header-paragraph">Define tu lista de sitios favoritos</p>
             </CardText>
           </Card>
         </div>
