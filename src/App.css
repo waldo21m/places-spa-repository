@@ -22,10 +22,17 @@
   height: 300px;
 }
 
+@media (max-width: 568px) {
+  .Header-illustration {
+    margin-top: 2em;
+    height: 200px;
+  }
+}
+
 .Benefit {
   display: flex;
   justify-content: space-between;
-  margin-left: -1rem;
+  margin-left: -.3em;
   flex-flow: row wrap;
 }
 
@@ -52,6 +59,10 @@
   width: 20%;
   max-width: 100%;
   margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Place-card-margin:not(:last-child) {
   margin-bottom: 1em;
 }
 

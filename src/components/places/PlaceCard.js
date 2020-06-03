@@ -12,12 +12,12 @@ export default class PlaceCard extends React.Component {
         classNames="fade-scale"
         in={this.props.in}
       >
-        <div className="col-xs-12 col-sm-4">
+        <div className="col-xs-12 col-sm-4 Place-card-margin">
           <Card>
             <CardMedia>
               <img src={process.env.PUBLIC_URL + this.props.place.imageUrl} alt={this.props.place.title}/>
             </CardMedia>
-            <CardTitle title={this.props.place.title}></CardTitle>
+            <CardTitle title={this.props.place.title}/>
             <CardText>{this.props.place.description}</CardText>
             <CardActions style={{"textAlign": "right"}}>
               <FlatButton secondary={true} label="Ver más"/>
